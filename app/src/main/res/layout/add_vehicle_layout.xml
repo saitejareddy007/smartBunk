@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:padding="16dp"
+    tools:context="com.example.sai.smartBunk.AddVehicle"
+    tools:layout_editor_absoluteY="25dp"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/tips"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tips"
+        android:layout_marginBottom="24dp"/>
+
+    <EditText
+        android:id="@+id/vehicleName"
+        android:background="@drawable/edittextstyle"
+        android:hint="Vehicle Name"
+        android:layout_marginBottom="24dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/modelName"
+        android:background="@drawable/edittextstyle"
+        android:hint="Model No"
+        android:layout_marginBottom="24dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RadioButton android:id="@+id/petrol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="petrol"
+            android:textColor="#FFFFFF"
+            android:onClick="onRadioButtonClicked"/>
+        <RadioButton android:id="@+id/diesel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="diesel"
+            android:textColor="#FFFFFF"
+            android:onClick="onRadioButtonClicked"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/addVehicleButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD"
+        android:onClick="addVehicleToDb"/>
+
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "497614836330",
+    "firebase_url": "https://saiteja-2707.firebaseio.com",
+    "project_id": "saiteja-2707",
+    "storage_bucket": "saiteja-2707.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:497614836330:android:e3621e0d194c7976",
+        "android_client_info": {
+          "package_name": "com.example.sai.grandmint"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "497614836330-568n5ogb0naht5v9fdcpubegngut2tr6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sai.grandmint",
+            "certificate_hash": "26cc43d5c3a8bbb6211c03b0f554dcb76ddedc9b"
+          }
+        },
+        {
+          "client_id": "497614836330-up71qg0qic39k47n16inu031moiuegtv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDC2DMUaJkr9mGDfyJ0_nXuzDLuMtLH-V8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "497614836330-up71qg0qic39k47n16inu031moiuegtv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

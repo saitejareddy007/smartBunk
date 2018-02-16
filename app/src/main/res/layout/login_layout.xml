@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:padding="16dp"
+    tools:context="com.example.sai.smartBunk.LoginActivity"
+    tools:layout_editor_absoluteY="25dp"
+    android:orientation="vertical">
+
+
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/appCompatImageView"
+        android:layout_width="296dp"
+        android:layout_height="150dp"
+        android:src="@drawable/image"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="32dp"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:id="@+id/loginEmail"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/edittextstyle"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="319dp"
+        android:layout_margin="10dp" />
+
+    <EditText
+        android:id="@+id/loginPassword"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/edittextstyle"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="294dp"
+        android:layout_margin="10dp" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#4DE3AE"
+        android:text="Forgot Password ?"
+        android:onClick="forgotActivity"
+        android:layout_margin="10dp"
+        android:gravity="end" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/appCompatButton"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#4DE3AE"
+        android:text="LogIn"
+        android:textColor="#FFFFFF"
+        android:onClick="login"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="32dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="40dp"/>
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No account yet? Create one"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:onClick="createAccount"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="40dp"/>
+
+
+</LinearLayout>
